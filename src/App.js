@@ -2,7 +2,11 @@ import React from 'react'
 import './App.css';
 import Header from './components/Header';
 import Cards from './components/Cards';
+
 import unionIcon from './assets/Union.png';
+
+import About from './About';
+
 
 function App() {
   const pscard = [
@@ -33,6 +37,7 @@ function App() {
   ]
   return (
     <div className="App">
+      <About/>
       <Header/>
       <div className="cards-grid">
         {pscard.map((card,index) => (
