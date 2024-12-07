@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import Header from './components/Header';
 import Cards from './components/Cards';
+import unionIcon from './assets/Union.png';
 
 function App() {
   const pscard = [
@@ -9,21 +10,25 @@ function App() {
       title: 'High Prep',
       description: 'In-depth demonstrations and extensive proof-of-concept work requiring 4–10 weeks of preparation, with considerable resource investment.',
       buttonText: 'See PS',
+      icon: unionIcon,
     },
     {
       title: 'Mid Prep',
       description: 'In-depth demonstrations and extensive proof-of-concept work requiring 4–10 weeks of preparation, with considerable resource investment.',
       buttonText: 'See PS',
+      icon: unionIcon,
     },
     {
       title: 'Low Prep',
       description: 'In-depth demonstrations and extensive proof-of-concept work requiring 4–10 weeks of preparation, with considerable resource investment.',
       buttonText: 'See PS',
+      icon: unionIcon,
     },
     {
       title: 'No Prep',
       description: 'In-depth demonstrations and extensive proof-of-concept work requiring 4–10 weeks of preparation, with considerable resource investment.',
       buttonText: 'See PS',
+      icon: unionIcon,
     },
   ]
   return (
