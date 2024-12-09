@@ -1,0 +1,64 @@
+.login, .signup {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.login h3, .signup h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login label, .signup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.login input, .signup input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login input:focus, .signup input:focus {
+    border-color: #137ef0;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+.login button, .signup button {
+    width: 100%;
+    padding: 5px;
+    background-color: #4795ea;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login button:hover, .signup button:hover {
+    background-color: #033e7d;
+}
+
+.login button:active, .signup button:active {
+    background-color: rgba(128, 128, 128, 0.628);
+}
+
+.error{
+    color : red;
+    background: rgb(235, 156, 156);
+    margin: 10px 0px;
+    padding: 5px;
+}
