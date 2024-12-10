@@ -2,6 +2,9 @@ import React from 'react'
 import './App.css';
 import Header from './components/Header';
 import Cards from './components/Cards';
+
+import unionIcon from './assets/Union.png';
+
 import About from './About';
 import Navbar from './Navbar'
 import unionIcon from './assets/Union.png';
@@ -9,6 +12,7 @@ import Announcement from './Announcement';
 import Heading from './mediumprep/Heading';
 import Card1 from './mediumprep/Card1';
 import Icon from './assets/Download.png';
+
 
 
 function App() {
